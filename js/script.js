@@ -80,9 +80,9 @@ function checkSwipe() {
 
 function changeSlide(direction) {
   if (direction === "right") {
-    showSlide((previousSlide + 1) % 4 === 0 ? 4 : (previousSlide + 1) % 4);
-  } else {
     showSlide((previousSlide - 1) % 4 === 0 ? 4 : (previousSlide - 1) % 4);
+  } else {
+    showSlide((previousSlide + 1) % 4 === 0 ? 4 : (previousSlide + 1) % 4);
   }
 }
 //  -----------------------------------------------------------------------
